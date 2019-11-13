@@ -531,3 +531,179 @@ margin-bottom: 66px;
     width: 135px;
     height: 63px;
 }
+
+@media (max-width: 1024px){
+    .container {
+        padding: 0 10px 20px 10px;
+}
+
+.header{
+    padding-bottom: 20px;
+}
+
+.header_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content_box{
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.header_content{
+    margin-top: 50px;
+}
+
+.request{
+    position: static;
+    margin: 0 auto;
+}
+
+.main_title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.story_box{
+    flex-direction: column;
+}
+
+.story_text{
+    margin-bottom: 30px;
+}
+
+.story{
+    padding: 20px;
+}
+
+.pricing_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing_card{
+    margin-bottom: 10px;
+}
+
+.testimonial-gallary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.gallery{
+    padding-top: 20px;
+}
+
+.testimonial{
+    margin-left: 150px;
+}
+
+}
+
+@media(max-width: 767px){
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-content_title{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .header-content_text{
+        font-size: 15px;
+    }
+
+    .main_title{
+        font-size:
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_text{
+        margin-bottom: 20px;
+    }
+
+    .footer{
+        padding: 20px;
+    }
+}
+
+@media(max-width: 320px){
+
+    .request_checkbox{
+        flex-direction: column;
+    }
+
+    .request_box{
+        margin-left: 140px;
+    }
+
+    .request{
+        max-width: 250px;
+    }
+
+    .request_input{
+        max-width: 200px
+    }
+
+    .request_button{
+        max-width: 200px;
+    }
+
+    .nav_list{
+        text-align: center;
+    }
+
+    .testimonial_title{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .card{
+        max-width: 250px;
+    }
+
+    .pricing_card{
+        max-width: 250px;
+    }
+
+    .pricing_card_button{
+        max-width: 100px;
+    }
+
+    .testimonial_img{
+        position: static;
+        margin-top: 20px;
+    }
+
+    .header-content_title{
+        font-size: 30px;
+    }
+
+    .testimonial_box{
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer_text{
+        text-align: center;
+        line-height: 2;
+    }
+}
